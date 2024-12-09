@@ -1,0 +1,52 @@
+.question-input-container {
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+  margin-bottom: 20px; /* Adds space between this component and others */
+}
+
+.question-input-container form {
+  width: 100%;
+  max-width: 600px;
+}
+
+.question-input-container input[type="text"] {
+  width: 100%; /* Ensure input width is 100% */
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+.question-input-container button {
+  width: 100%; /* Match input width */
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff; /* Button background color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.question-input-container button:hover {
+  background-color: #0056b3; /* Hover effect for button */
+}
+
+.question-input-container button:active {
+  transform: scale(0.98); /* Button shrink on click */
+}
+
+.error-message {
+  color: #ff4c4c; /* Red color for error messages */
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,7 @@
+.background-container {
+    height: 100vh; /* Full height of the viewport */
+    width: 100%; /* Full width */
+    background: url('/C:\Users\muham\mindseye\src\Components\background\eye.avif') no-repeat center center fixed; 
+    background-size: cover; /* Cover the entire container */
+  }
+  

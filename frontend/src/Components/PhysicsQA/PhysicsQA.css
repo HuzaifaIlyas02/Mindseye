@@ -1,0 +1,38 @@
+.physics-qa-container {
+  width: 100vw; /* Full viewport width */
+  max-width: 100%; /* Ensure it doesn't exceed the viewport */
+  padding: 20px; /* Add some padding for better visual spacing */
+  box-sizing: border-box; /* Include padding in width calculations */
+}
+
+.flowchart-section {
+  width: 100%;
+  height: auto;
+  overflow: auto; /* In case the chart overflows */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flowchart-section > div {
+  width: 100%;
+  min-height: 400px; /* Ensure enough height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.try-minds-eye-btn {
+  width: 20%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.try-minds-eye-btn:hover {
+  background-color: #005f8e;
+}

@@ -1,0 +1,143 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .navbar-left .use-cases-select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .navbar-center .brand-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4285F4;
+    text-decoration: none;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-link {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  
+  .signup-btn {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  
+  .login-link {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .navbar-left .use-cases-select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .navbar-center .brand-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4285F4;
+    text-decoration: none;
+  }
+  
+  .navbar-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-btn {
+    margin: 0 10px;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .faq-btn, .community-btn {
+    background-color: #4CAF50;  /* Green color */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  
+
+  .login-btn {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  .use-cases-btn{
+     background-color:rgb(22, 19, 153);
+    color: white;
+    border:#ccc;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 12px;
+    text-decoration: none;
+  }
+  .nav-btn:hover {
+    opacity: 0.9;
+  }
